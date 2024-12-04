@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* .i {
+    width: 100%;
+} */
+.socials{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.logo {
+    margin: 20px;
+}
+/* Navigation Bar Styling */
+.nav {
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 30px; 
+    background-color: white; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* Navigation Items */
+.navitems {
+    color: black;
+    padding: 10px 15px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.navitems:hover {
+    color: white;
+    background-color: #61b3fc; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.downloadcv {
+    border: none;
+    border-radius: 0;
+    color: #d23a5d;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+
+.intro {
+    margin-left: 5%;
+    line-height: 0px;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.contactButton{
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: #d23a5d;
+    font-size: 20px;
+    border: 2px solid #d23a5d;
+}
+
+.contactButton:hover {
+    color: #d23a5d;
+    background: white;
+}
+
+.job {
+    display: flex;
+    line-height: 0;
+}
+
+.h6 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 100px;
+}
+
+.job{
+    font-size: 30px;
+}
+.colorintro {
+    color: #d23a5d;
+}
+
+.bodypart {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .footer {
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+.footeritem {
+    border: none;
+    font-size: 14px;
+    margin: 20px;
+    border: 2px solid cornflowerblue;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+    background: rgb(0, 217, 255);
+
+
+} */
+
